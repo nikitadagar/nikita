@@ -1,2 +1,14 @@
-//css for nikitadagar
-text : 40px;
+
+.bgc-black{
+	background-color: #000000;
+	color: white;
+}
+
+.ht-full {
+	height: 100vh;
+}
+
+.txt-right{
+	text-align: right;
+}
+
