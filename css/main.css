@@ -1,14 +1,83 @@
-
-.bgc-black{
-	background-color: #000000;
-	color: white;
+*{
+	font-family: 'Montserrat', sans-serif;
 }
+
+/* ------------------ text styles ----------------- */
+
+a {
+	color: #FFFFFF;
+}
+
+.txt-lg{
+	font-size: 60px;
+}
+
+.txt-bold {
+	font-weight: bold;
+}
+
+
+/*------------------ Size and Alignment -------------*/
 
 .ht-full {
 	height: 100vh;
 }
 
-.txt-right{
+.al-right{
 	text-align: right;
+}
+
+.al-left{
+	text-align: left;
+}
+
+.center-align-horz{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center-align-vert {
+	margin-top: 51%;
+	margin-right: -5px;
+}
+
+.align-vert-3 {
+	margin-top: 33%;
+	margin-left: -5px;
+}
+
+.desc{
+	padding-top: 5%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
+}
+
+.margin-left-xs{
+	margin-left: -15px;
+}
+
+/*-------------------- Other styles ----------------*/
+
+.cyan-border {
+	border-right: 5px solid #00BCD4;
+}
+
+.cyan-border-sm {
+	border: 2px solid #00BCD4;
+}
+
+.cyan{
+	color: #00BCD4;
+}
+
+.bgc-black {
+	background-color: #000000;
+	color: white;
+}
+
+.bg-img {
+
 }
 
