@@ -8,12 +8,20 @@ a {
 	color: #FFFFFF;
 }
 
-.txt-lg{
+.txt-xxlg{
 	font-size: 60px;
+}
+
+.txt-md {
+	font-size: 18px;
 }
 
 .txt-bold {
 	font-weight: bold;
+}
+
+.txt-white {
+	color: white;
 }
 
 
@@ -21,6 +29,10 @@ a {
 
 .ht-full {
 	height: 100vh;
+}
+
+.ht-2x {
+	height: 200vh;
 }
 
 .al-right{
@@ -36,6 +48,10 @@ a {
 	margin-right: auto;
 }
 
+.width-80 {
+	width: 80%;
+}
+
 .center-align-vert {
 	margin-top: 40%;
 }
@@ -43,10 +59,14 @@ a {
 .desc{
 	padding-top: 5%;
 	padding-bottom: 5%;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 18px;
+}
+
+.pdg-top-xsm {
+	padding-top: 1%;
+}
+
+.pdg-top-sm {
+	padding-top: 5%;
 }
 
 .margin-left-sm{
@@ -68,7 +88,7 @@ a {
 }
 
 .cyan-border-sm {
-	border: 2px solid #00BCD4;
+	border: 10px solid #00BCD4;
 }
 
 .cyan{
