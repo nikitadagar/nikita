@@ -139,5 +139,13 @@ li {
   .txt-xxlg {
   	font-size: 50px;
   }
+
+  img {
+  	width: 50%;
+  }
+
+  .img-size {
+  	width: 25%;
+  }
 }
 
