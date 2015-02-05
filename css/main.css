@@ -5,7 +5,16 @@
 /* ------------------ text styles ----------------- */
 
 a {
-	color: #FFFFFF;
+	color: ##00BCD4;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+li {
+	padding: 5px 0;
 }
 
 .txt-xxlg{
@@ -27,7 +36,11 @@ a {
 
 /*------------------ Size and Alignment -------------*/
 
-.ht-full {
+.ht-half {
+	height: 50vh;
+}
+
+.ht-full, .ht-x {
 	height: 100vh;
 }
 
@@ -61,7 +74,7 @@ a {
 	padding-bottom: 5%;
 }
 
-.pdg-top-xsm {
+.pdg-top-xs {
 	padding-top: 1%;
 }
 
@@ -103,5 +116,18 @@ a {
 .bg-img {
 	background: url(../img/bg.png);
 	background-size: 1440px 800px;
+}
+
+/*------------------ Media Queries -----------------*/
+
+@media (max-width: 768px) {
+  .ht-x {
+    height: 100%;
+  }
+
+  li {
+  	display: inline;
+  	padding-right: 10%;
+  }
 }
 
